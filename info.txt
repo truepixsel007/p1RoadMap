@@ -1,0 +1,14 @@
+Part - 1 || Flutter Provider State Management Road Map || Provider State Management course
+            # what is stateless and statefull widgets
+            # Immutable widgets are those whose properties cannot change once they are created. If there is a need to update               the widget, the entire widget is rebuilt with the new values. Eg:- StatelessWidget
+            # Mutable widgets can hold and change state during their lifecycle. These are stateful widgets, and they update               their state using the setState method. Ex:- StatefulWidget
+            # count example (conventional method (set state), provider) , 1st ,2nd 
+            # provider statemanagement with theme change 
+            # multi provider and single provider , change notifier , value listenier 
+            # Flutter's Provider is a state management solution that simplifies the process of sharing data across your app.               It is a wrapper around InheritedWidget, providing an easier and more scalable way to manage state, dependency               injection, and lifecycle management in Flutter apps.
+
+              * Key Concepts
+               * Provider: The base class to expose data or state to descendant widgets.
+                 1. ChangeNotifier: A class that implements the Listenable interface and is commonly used with                                   ChangeNotifierProvider to manage state.
+                2.  Consumer: A widget that listens to changes in a provided object and rebuilds when the object changes.
+                3.  ChangeNotifierProvider: A specialized Provider for classes that extend ChangeNotifier.
